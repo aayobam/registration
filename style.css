@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("./images/bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-color: #FF7A7A;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: antiquewhite;
+}
+
+.register{
+    margin: auto;
+    gap: 50px;
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register div{
+    display: flex;
+    flex-direction: column;
+}
+
+.column1{
+    width: 45%;
+}
+
+.column1 h1{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.column1 p{
+    width: 100%;
+}
+
+h1{
+    font-weight: 700px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-weight: 400px;
+}
+
+
+.register .column2 .trial{
+    text-align: center;
+    background-color: #6055A5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.register form{
+    background-color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+#first-name, #last-name, #email, #password{
+    padding: 10px 100px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: 700px;
+    border: 1px solid #3E3C49;;
+}
+
+#submit-button{
+    padding: 10px 95px;
+    background-color: #38CC8C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-weight: 400px;
+    font-size: 9px;
+}
+
+@media only screen and (max-width: 758px){
+    .register{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .register div{
+        display: flex;
+        padding: 2em;
+    }
+
+    .register .column1{
+       width: 100%;
+       text-align: center;
+       margin-top: 20px;
+       margin-bottom: -80px;
+       
+    }
+    .column1 h1{
+        margin-left: 40px;
+    }
+
+    .main .register form{
+        margin-bottom: 20px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 2em;
+    }
+}
