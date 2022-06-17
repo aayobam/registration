@@ -82,12 +82,16 @@ form #first-name, #last-name, #email, #password, button{
     font-weight: 700px;
     border: 1px solid #3E3C49;;
 }
+form #first-name:hover, #last-name:hover, #email:hover, #password:hover{
+    border-color: #FF7A7A;
+}
+
 label{
    float: right;
    clear: right;
    margin: -25px -30px -10px -100px;
    font-style: italic;
-   color: red;
+   color: #FF7A7A;
 }
 
 form button{
@@ -98,6 +102,10 @@ form button{
     border: none;
     border-radius: 5px;
     margin-bottom: 10px;
+}
+
+form button:hover{
+    background-color: #6055A5;
 }
 
 form label{
