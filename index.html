@@ -11,6 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./style.css" type="text/css">
+        <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
         <title>Registration Form</title>
     </head>
 
@@ -34,10 +35,18 @@
                 </div>
                
                 <form action="" onsubmit="return validateForm()" enctype="multipart/form-data">
-                    <input type="text" id="first-name" placeholder="First Name"><br>
-                    <input type="text" id="last-name" placeholder="Last Name"><br>
-                    <input type="email" name="email" id="email" placeholder="Email Address"><br>
-                    <input type="password" name="password" id="password" placeholder="Password."><br>
+                    <input type="text" id="first-name" placeholder="First Name">
+                    <label for="" id="firstname-label"></label>
+
+                    <input type="text" id="last-name" placeholder="Last Name">
+                    <label for="" id="lastname-label"></label>
+
+                    <input type="email" name="email" id="email" placeholder="Email Address">
+                    <label for="" id="email-label"></label>
+
+                    <input type="password" name="password" id="password" placeholder="Password.">
+                    <label for="" id="password-label"></label>
+
                     <button>CLAIM YOUR FREE TRIAL</button>
                     <label for="" style="color: #B9B6D3;">
                         By clicking the button, you are agreeing to our
